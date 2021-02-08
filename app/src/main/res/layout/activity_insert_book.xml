@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InsertBookActivity">
+    <EditText
+        android:id="@+id/bookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Book Title"/>
+    <EditText
+        android:id="@+id/bookAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Book Author"/>
+    <EditText
+        android:id="@+id/bookISBN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Book ISBN"/>
+    <EditText
+        android:id="@+id/bookPublisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="Book Publisher"/>
+    <Button
+        android:id="@+id/insertBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert Book"
+        android:layout_margin="16dp"
+        android:onClick="insertBook"/>
+</LinearLayout>
